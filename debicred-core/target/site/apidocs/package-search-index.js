@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"me.talkcode.acc.core"},{"l":"me.talkcode.acc.core.bookkeeping"},{"l":"me.talkcode.acc.core.bookkeeping.books"},{"l":"me.talkcode.acc.core.bookkeeping.facts"},{"l":"me.talkcode.acc.core.bookkeeping.model"},{"l":"me.talkcode.acc.core.builtin"},{"l":"me.talkcode.acc.core.commons"}];updateSearchResults();
