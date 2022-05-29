@@ -23,3 +23,5 @@
 hs_err_pid*
 commons-query/target
 commons-query/.vscode
+debicred-core/.vscode
+debicred-core/.idea

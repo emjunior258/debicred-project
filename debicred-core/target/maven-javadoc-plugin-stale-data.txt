@@ -1,0 +1,57 @@
+@options
+@packages
+-classpath
+'/home/talkcode/.m2/repository/me/talkcode/commons/commons-query/1.0.0-SNAPSHOT/commons-query-1.0.0-SNAPSHOT.jar:/home/talkcode/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar:/home/talkcode/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/home/talkcode/.m2/repository/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'/home/talkcode/Projects/Accounting/acc-core/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'acc-core 1.0.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'acc-core 1.0.0-SNAPSHOT API'
+me.talkcode.acc.core
+me.talkcode.acc.core.builtin
+me.talkcode.acc.core.commons
+me.talkcode.acc.core.bookkeeping.books
+me.talkcode.acc.core.bookkeeping.model
+me.talkcode.acc.core.bookkeeping.facts
+me.talkcode.acc.core.bookkeeping
+/home/talkcode/.m2/repository/me/talkcode/commons/commons-query/1.0.0-SNAPSHOT/commons-query-1.0.0-SNAPSHOT.jar = 1653206302437
+/home/talkcode/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar = 1653816889938
+/home/talkcode/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar = 1653816829600
+/home/talkcode/.m2/repository/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar = 1653836507454
+/home/talkcode/Projects/Accounting/acc-core/src/main/java = 1652612133785
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/allpackages-index.html = 1653842589189
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/index-all.html = 1653842589233
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/serialized-form.html = 1653842588973
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/javadoc.sh = 1653842119530
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/stylesheet.css = 1653842589241
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/index.html = 1653842589157
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/type-search-index.js = 1653842589189
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/search.js = 1653842589241
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/package-search-index.js = 1653842589189
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/tag-search-index.js = 1653842589193
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/help-doc.html = 1653842589237
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/jquery-ui.overrides.css = 1653842589249
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/overview-summary.html = 1653842589237
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/overview-tree.html = 1653842589153
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/allclasses-index.html = 1653842589189
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/member-search-index.js = 1653842589189
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/module-search-index.js = 1653842589189
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/element-list = 1653842588913
+/home/talkcode/Projects/Accounting/acc-core/target/site/apidocs/script.js = 1653842589241
