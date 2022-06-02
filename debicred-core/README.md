@@ -16,8 +16,6 @@ All accounting operations happen within an `AccountingContext`, which essentiall
 
 All accounting transactions are written to both a `Ledger` and a `Journal` which are specific to the `AccountingPeriod`.
 
-The `AccountingPeriod` can be initialized by an accounting `Scheme`, in order to ensure that the `Ledger` of the accounting period has a standard structure.
-
 The `Ledger` is organized in `AccountClass`es which contain `Account`s. An `Account` can have child `Account`s.
 
 The `Ledger` can be initialized by an Accounting `Scheme`.
