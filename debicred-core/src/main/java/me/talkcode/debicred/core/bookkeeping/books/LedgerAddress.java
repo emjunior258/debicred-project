@@ -22,13 +22,6 @@ public record LedgerAddress(String value){
         }
     }
 
-    public Optional<LedgerRecordInfo> getRecordInfo(Ledger ledger) {
-        if(ledger == null)
-            throw new IllegalArgumentException("ledger must not be null");
-        LOGGER.debug("Getting info about record under " + value);
-        return ledger.getRecordInfo(this);
-    }
-
     public String toString() {
         return value;
     }

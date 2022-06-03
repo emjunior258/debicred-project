@@ -2,7 +2,6 @@ package me.talkcode.debicred.core.bookkeeping.books;
 
 import me.talkcode.debicred.core.bookkeeping.model.Account;
 import me.talkcode.debicred.core.bookkeeping.model.AccountClass;
-import me.talkcode.debicred.core.bookkeeping.model.AccountingPeriod;
 
 /**
  * Defines the structure of the Accounting {@link Ledger}, more specifically the structure of {@link AccountClass}s and {@link Account}s.
@@ -14,9 +13,21 @@ import me.talkcode.debicred.core.bookkeeping.model.AccountingPeriod;
  */
 public interface Scheme {
 
+    /**
+     * Gets the unique identifier of the scheme.
+     * @return the unique identifier of the scheme
+     */
     String getId();
-    String getDescription();
-    void initialize(AccountingPeriod newPeriod, AccountingPeriod previousPeriod);
-    void endYear(AccountingPeriod year);
 
+    /**
+     * Gets the description of the accounting scheme.
+     * @return the description of the scheme
+     */
+    String getDescription();
+
+    /**
+     * Initializes a Ledger with the accounting scheme structure
+     * @param ledger the ledger to be initialized
+     */
+    void initialize(Ledger ledger);
 }

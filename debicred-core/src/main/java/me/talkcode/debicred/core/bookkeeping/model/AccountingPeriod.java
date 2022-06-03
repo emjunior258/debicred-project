@@ -7,7 +7,7 @@ import me.talkcode.debicred.core.bookkeeping.books.Ledger;
 import me.talkcode.debicred.core.bookkeeping.books.Scheme;
 
 /**
- * An accounting period, is a company’s financial reporting period.
+ * An accounting period is a company’s financial reporting period.
  * 
  * The accounting period is typically a period of twelve months, however, this API leaves it open for any duration.
  * Organizations can choose to have their accounting period begin and end on any dates.
@@ -21,11 +21,10 @@ public interface AccountingPeriod {
     Journal getJournal();
 
     /**
-     * Gets the accounting Ledger of the financial Journal.
+     * Gets the accounting Ledger of the period.
      * @return {@link Ledger} of the accounting period.
      */
     Ledger getLedger();
-
 
     /**
      * Gets the date in which the accounting period started.
@@ -40,21 +39,10 @@ public interface AccountingPeriod {
     LocalDate getEnd();
 
     /**
-     * Gets the identity of the Accounting {@link Scheme} used in this period.
-     * @return the identity of the Accounting {@link Scheme} used in this period.
-     */
-    String getSchemeId();
-
-
-    /**
      * Tells whether the accounting period has already ended or not.
      * @return true if the accounting period is over, false otherwise.
      */
     boolean hasEnded();
 
-    /**
-     * Ends the accounting period.
-     */
-    void end();
     
 }

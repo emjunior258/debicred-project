@@ -30,14 +30,6 @@ public interface Ledger extends Book {
      * @return the {@link LedgerRecord} that is stored under the provided address.
      */
     Optional<LedgerRecord> getRecord(LedgerAddress addr);
-
-    /**
-     * Gets information about the {@link LedgerRecord}.
-     * @param addr the address of the {@link LedgerRecord}.
-     * @return an empty {@link Optional} if the {@link LedgerRecord} is not found, otherwise the {@link LedgerRecordInfo} is returned.
-     */
-    Optional<LedgerRecordInfo> getRecordInfo(LedgerAddress addr);
-
     
     /**
      * Gets a handle to query {@link Account}s in the {@link Ledger}.
@@ -45,13 +37,11 @@ public interface Ledger extends Book {
      */
     Queryable<Account> getAccountsQueryable();
 
-
     /**
      * Gets the set of {@link AccountClass}ess that are part of the Ledger
      * @return the set of {@link AccountClass}ess added to the Ledger
      */
     Set<AccountClass> getClasses();
-
 
     /**
      * Adds a new {@link AccountClass} to the Ledger
